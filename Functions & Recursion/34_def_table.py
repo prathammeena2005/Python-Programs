@@ -1,0 +1,5 @@
+num=int(input("Enter a number: "))
+def table(n):
+    for i in range(1,11):
+        print(n,'X',i,'=',n*i)
+table(num)
